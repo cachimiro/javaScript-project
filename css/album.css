@@ -1,0 +1,270 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+  all of this is a bootsrap code*/
+
+
+
+
+
+body {
+    margin: 0;
+    font-family:'Amatic SC', cursive;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fafafa;
+}
+
+
+
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: .5rem
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+
+
+
+
+ol ol,ol ul,ul ol,ul ul {
+    margin-bottom: 0
+}
+
+
+/*---------------------up to here the bootsrap code ends after this is all my code*/
+
+/*-------------------my code*/
+body{
+    font-family: 'Amatic SC', cursive !important;
+}
+a{
+    font-weight: 600;
+    color:#171717 !important;
+    
+}
+.navbar-brand{
+    font-size: 30px !important;
+    color: #fafafa;
+
+}
+
+.tittle{
+    color: #fafafa;
+    text-align: center;
+    padding-top: 180px;
+   font-weight: 800;
+   font-size: 50px;
+}
+.top-tittle{
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+/*-----------------------image slide show*/
+* {box-sizing: border-box;}
+body {font-family: 'Amatic SC', cursive;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Amatic SC', cursive;;
+}
+
+.header {
+  background-color: #fafafa;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #bbbdbe;
+}
+
+  #navbar a {
+  float: left;
+  display: block;
+  color: #f5f0f0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #fafafa;
+  color: #f30864 !important;
+}
+
+h1{
+	font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	text-align: left;
+}
+
+p {
+	font-size: .9rem;
+}
+
+div {
+	border-radius: 4px;
+}
+
+.card_image {
+	width: 100%;
+}
+
+.bottom_button {
+	display: flex;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+	background-color:rgba(129, 187, 201,.85);
+	text-align: center;
+	padding: 1em .75em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.card_bottom {
+	display: flex;
+	flex-flow:column;
+}
+
+.card_head {
+	flex:0;
+}
+
+.card_para {
+	flex:1 0 auto;
+}
+
+#container {
+	display: flex;		
+	flex-flow: row wrap; 	
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:1050px;
+	box-shadow: 5px 10px #888888
+}
+
+#logo {
+	width: 800px;
+	margin: auto;
+}
+
+.card {
+	flex:1; 
+	display: flex;	
+	flex-flow:column;	
+	min-width: 240px; 
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.highlight_stream {
+	background-color: #EB5255;
+}
+
+#my_footer {
+	width:100%;
+	text-align: center;
+}
+
+#copyright {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+nav {
+	font-family: roboto;
+	background-color: #eee;
+	margin: 30px auto;
+	width: 100%;
+}
+
+ul {
+	display: flex;
+	justify-content:space-between;
+	flex-flow: row;
+
+	align-items:baseline;
+	border-radius: 10px;
+	list-style-type: none; 
+	padding: 0;	
+}
+
+
+li {
+	flex:1;
+	height: 30px;
+	font-family: Dosis;
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#logoNav {
+	flex:6;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.underline {
+    text-decoration:underline;
+}
+
+.border {
+    border: solid 5px #ccc;
+}
+
+@media screen and (max-width: 700px) {
+	ul {
+		flex-flow: column;
+		align-items:center;
+    }
+    
+	li {
+		font-size: 2em;
+	}
+}
+.btn-primary{
+    text-align: center !important;
+}
+footer{
+    background-color: #f8f9fa;
+}
+
+
+
+
+
+  
