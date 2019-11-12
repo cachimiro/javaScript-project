@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Contact</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/album.css" type="text/css" />
+    <link rel="stylesheet" href="css/contact.css" type="text/css" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_UmSeo27b55xmNHfUBgKB0");
+
+        })();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <div id="navbar">
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Book a Trip</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+        </div>
+    </header>
+    <section class="container">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">where Would you like to travell</h3>
+                <h5 class="uppercase text-center ">Lets's work togheter and get you the best holliday</h5>
+
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+
+                    <button class="eamil-1">Email <i class="fa fa-envelope"></i></button>
+                </div>
+
+
+                <div class="col-6">
+                    <button class="phone-contact">Phone<i class="fa fa-mobile"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="center-form">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-6">
+                        <form onsubmit="return sendMail(this);" method="POST" class="size-1">
+                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                            <input type="text" name="name" class="form-control" id="Surname" placeholder="Surname" required/>
+                            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                            <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="where would you like to travel, what type of holliday do you want" required></textarea>
+                            <button type="submit" class="btn btn-secondary center-block">Book your Holliday</button>
+                        </form>
+                    </div>
+                    <div class="col-6 conct-form">
+
+                        <h3 class="section-heading uppercase">Contact</h3>
+
+
+                        <div class="personal-info-item">
+                            <div class="key">
+                                <p class="uppercase">Name:</p>
+                            </div>
+                            <div class="value">
+                                <p>Johann Aguirre</p>
+                            </div>
+                        </div>
+                        <div class="personal-info-item">
+                            <div class="key">
+                                <p class="uppercase">Address:</p>
+                            </div>
+                            <div class="value">
+                                <p>100 watch Elm close bredley stoke BS32 8AN</p>
+                            </div>
+                        </div>
+                        <div class="personal-info-item">
+                            <div class="key">
+                                <p class="uppercase">Phone:</p>
+                            </div>
+                            <div class="value">
+                                <p>07555799518</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4 ">
+                    <h5 class="uppercase general-sub ">MySocial</h5>
+                    <ul class="list-inline social-links ">
+                        <li><a target="_blank" href="# "><i class="fa fa-facebook "></i></a></li>
+                        <li><a target="_blank" href="# "><i class="fa fa-twitter "></i></a></li>
+                        <li><a target="_blank" href="# "><i class="fa fa-linkedin "></i></a></li>
+                        <li><a target="_blank" href="# "><i class="fa fa-pinterest "></i></a></li>
+                        <li><a target="_blank" href="# "><i class="fa fa-instagram "></i></a></li>
+                        <li><a target="_blank" href="# "><i class="fa fa-youtube "></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/contact.js"></script>
+</body>
+
+</html>

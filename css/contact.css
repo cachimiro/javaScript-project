@@ -1,0 +1,96 @@
+/*contact form*/
+.size-1 {
+    width: 500px;
+    text-align: center;
+    display: none;
+
+}
+
+.form-control {
+    text-align: center;
+
+}
+
+.phone-contact {
+    border: none;
+    background-color: inherit;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left: 400px;
+    font-size: 50px;
+
+
+}
+
+.eamil-1 {
+    border: none;
+    background-color: inherit;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 60px;
+    font-size: 50px;
+    
+}
+
+.phone-contact:hover {
+    color: #f30864;
+}
+.eamil-1:hover{
+  color:  #f30864; 
+}
+.conct-form{
+    text-align: left;
+    font-size: 15px;
+    background-color:#d8d3d3;
+    margin: 20px;
+}
+
+.conct-form {
+    display: none;
+}
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+/*---------------header*/
+header{
+    background-color: yellow;
+}
+section{
+    background-color: #fafafa;
+}
+footer{
+    background-color:lightgrey;
+    height: 100%;
+    
+}
