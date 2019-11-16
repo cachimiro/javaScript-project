@@ -60,6 +60,7 @@ img {vertical-align: middle;}
  /*------------------------footer colombia.html*/
  .colombia-footer{
      background-color: grey;
+     height: 100%;
  }
  .button-static{
   text-align: center;

@@ -28,6 +28,7 @@
     );
     return false;  
 }
+ 
 
 
 $(".eamil-1").click(function(){
@@ -35,7 +36,7 @@ $(".eamil-1").click(function(){
     
 });
 
-$(".phone-contact").click(function(){
-    $(".conct-form").toggle();
-});
+
+
+
 

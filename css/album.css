@@ -66,11 +66,8 @@ a {
 
 }
 
-.navbar-brand {
-	font-size: 30px !important;
-	color: #fafafa;
 
-}
+
 
 .tittle {
 	color: #fafafa;
@@ -120,6 +117,9 @@ body {
 #navbar {
 	overflow: hidden;
 	background-color: #f8f9fa;
+}
+#dropheader {
+	display: none;
 }
 
 #navbar a {
@@ -284,3 +284,36 @@ li {
 footer {
 	background-color: #f8f9fa;
 }
+ /*----------------------buttons colombia.html*/
+.b1{
+border: none;
+background-color: inherit;
+padding: 20px;
+ }
+ .b1:hover{
+ color: #f30864 !important;
+ }
+ .b2{
+border: none;
+background-color: inherit;
+padding: 20px;
+ }
+ .b2:hover{
+ color: #f30864 !important;
+ }
+ .b3{
+border: none;
+background-color: inherit;
+padding: 20px;
+ }
+ .b3:hover{
+ color: #f30864 !important;
+ }
+ .b4{
+border: none;
+background-color: inherit;
+padding: 20px;
+ }
+ .b4:hover{
+ color: #f30864 !important;
+ }
