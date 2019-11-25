@@ -1,19 +1,19 @@
-// collapese items
-$( ".b1" ).click(function() {
+// collapese items here is where the buttons colapse and information will be dysplays regerding the button you use
+$( ".display-information-1" ).click(function() {
   $('.h').toggle()
   $( ".p" ).toggle( );
   
   
 });
-$( ".b2" ).click(function() {
+$( ".display-information-2" ).click(function() {
   $('.h-1').toggle()
   $( ".p-1" ).toggle();
 });
-$( ".b3" ).click(function() {
+$( ".display-information-3" ).click(function() {
   $('.h-2').toggle()
   $( ".p-2" ).toggle();
 });
-$( ".b4" ).click(function() {
+$( ".display-information-4" ).click(function() {
   $('.h-3').toggle()
   $( ".p-3" ).toggle();
 });
@@ -24,7 +24,7 @@ $( ".b4" ).click(function() {
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("maps"), {
-        zoom: 4.5,
+        zoom: 4,
         center: {
             lat: 4.683218,
             lng: -74.078700
@@ -47,6 +47,9 @@ function initMap() {
         });
     });
 
-
-   var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
+
+
+    
+  

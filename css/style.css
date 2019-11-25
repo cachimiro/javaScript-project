@@ -59,12 +59,10 @@ img {vertical-align: middle;}
  }
  /*------------------------footer colombia.html*/
  .colombia-footer{
-     background-color: grey;
+     background-color: lightgrey;
      height: 100%;
  }
- .button-static{
-  text-align: center;
- }
+
   /*google maps*/
    #maps {
             min-height: 360px;

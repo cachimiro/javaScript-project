@@ -18,6 +18,7 @@ showSlides();
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
+  // makes sure the pictures move 1 by 1
  
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
