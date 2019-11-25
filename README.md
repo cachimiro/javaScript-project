@@ -105,9 +105,13 @@ Credits:
 
 Content:
 •	https://www.w3schools.com/ for giving me ideas of how I could right code.
+
 •	Google images that gave me all my header images.
+
 •	Code institute projects that gave the idea to my website.
+
 •	Goole maps API.
+
 •	Noticas caracol link
 
 Media:
